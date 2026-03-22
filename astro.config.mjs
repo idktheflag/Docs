@@ -17,7 +17,7 @@ export default defineConfig({
 			],
 			sidebar: [
 				{
-					label: 'smth',
+					label: 'Getting Started with CTFs',
 					autogenerate: { directory: 'reference' },
 				},
 				{
