@@ -12,6 +12,11 @@ const authors: Record<string, Author> = {
 		avatar: 'https://idktheflag.sh/pfps/riverxia.png',
 		url: 'https://riverxia.vercel.app',
 	},
+	zemi: {
+		name: 'Zemi',
+		avatar: 'https://idktheflag.sh/pfps/zemi.png',
+		url: 'https://github.com/imattas',
+	}
 };
 
 export default authors;

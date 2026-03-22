@@ -1,6 +1,7 @@
 ---
 title: pwnsmith
 description: A GDB plugin made for solving pwn challenges.
+author: zemi
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.
