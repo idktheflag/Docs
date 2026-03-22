@@ -11,6 +11,6 @@ Just some nice little tools we made (mostly Zemi) in order to help us solve CTFs
 
 [pwnsmith](/tools/pwnsmith)
 
-#### Riverxia and Qu1ck5h0t
+#### Riverxia and Qu1ck5h0t (Collab)
 ###### WIP
 [MashaInjector](https://github.com/idktheflag/mashainjector)
