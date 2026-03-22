@@ -9,5 +9,5 @@ Less concerned with telling a story or addressing a specific use case, they shou
 ## How to install
 
 ```bash
-curl -sL https://raw.githubusercontent.com/imattas/pwnsmith/main/install.sh | bash
+curl -sL https://raw.githubusercontent.com/imattas/pwnsmith/main/install.sh | sudo bash
 ```
