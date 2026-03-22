@@ -41,7 +41,7 @@ export default defineConfig({
 					autogenerate: { directory: 'web' },
 				},
 				{
-					label: 'osint',
+					label: 'OSINT',
 					autogenerate: { directory: 'osint' },
 				},
 				{
