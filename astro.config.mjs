@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'idkthedocs',
 			components: {
 				PageTitle: './src/components/PageTitle.astro',
 			},
