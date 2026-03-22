@@ -16,6 +16,11 @@ const authors: Record<string, Author> = {
 		name: 'Zemi',
 		avatar: 'https://idktheflag.sh/pfps/zemi.png',
 		url: 'https://github.com/imattas',
+	},
+	quickshot: {
+		name: 'Qu1ck5h0t',
+		avatar: 'https://idktheflag.sh/pfps/quickshot.png',
+		url: 'https://qu1ck5h0t.github.io/',
 	}
 };
 
