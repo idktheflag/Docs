@@ -1,0 +1,74 @@
+---
+import authors, { type Author } from '../data/authors';
+
+const { entry } = Astro.locals.starlightRoute;
+const rawAuthor = entry.data.author;
+const authorKeys = rawAuthor
+	? Array.isArray(rawAuthor) ? rawAuthor : [rawAuthor]
+	: [];
+const resolvedAuthors = authorKeys
+	.map((key: string) => authors[key])
+	.filter((a): a is Author => !!a);
+---
+
+<h1 id="_top">{entry.data.title}</h1>
+{resolvedAuthors.length > 0 && (
+	<div class="sl-authors">
+		<div class="sl-authors-avatars">
+			{resolvedAuthors.map((author, i) => (
+				<img
+					src={author.avatar}
+					alt={author.name}
+					class="sl-author-avatar"
+					width="28"
+					height="28"
+					style={`z-index: ${resolvedAuthors.length - i}`}
+				/>
+			))}
+		</div>
+		<span class="sl-authors-names">
+			{resolvedAuthors.map((author, i) => (
+				<>
+					{i > 0 && (i === resolvedAuthors.length - 1 ? ' & ' : ', ')}
+					{author.url ? (
+						<a href={author.url} class="sl-author-name">{author.name}</a>
+					) : (
+						<span>{author.name}</span>
+					)}
+				</>
+			))}
+		</span>
+	</div>
+)}
+
+<style>
+	.sl-authors {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		margin-top: 0.25rem;
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-3);
+	}
+	.sl-authors-avatars {
+		display: flex;
+	}
+	.sl-author-avatar {
+		border-radius: 50%;
+		border: 2px solid var(--sl-color-bg);
+	}
+	.sl-author-avatar:not(:first-child) {
+		margin-left: -0.5rem;
+	}
+	.sl-authors-names {
+		color: var(--sl-color-gray-3);
+	}
+	.sl-author-name {
+		color: var(--sl-color-gray-3);
+		text-decoration: none;
+	}
+	a.sl-author-name:hover {
+		color: var(--sl-color-white);
+		text-decoration: underline;
+	}
+</style>
