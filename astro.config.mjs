@@ -18,7 +18,11 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Getting Started with CTFs',
-					autogenerate: { directory: 'reference' },
+					autogenerate: { directory: 'gettingstarted' },
+				},
+				{
+					label: 'Cryptography',
+					autogenerate: { directory: 'crypto' },
 				},
 				{
 					label: 'Tools',

@@ -12,6 +12,9 @@ const resolvedAuthors = authorKeys
 ---
 
 <h1 id="_top">{entry.data.title}</h1>
+{entry.data.description && (
+	<p class="sl-description">{entry.data.description}</p>
+)}
 {resolvedAuthors.length > 0 && (
 	<div class="sl-authors">
 		<div class="sl-authors-avatars">
@@ -42,6 +45,12 @@ const resolvedAuthors = authorKeys
 )}
 
 <style>
+	.sl-description {
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-3);
+		margin-top: -0.25rem;
+		margin-bottom: 0;
+	}
 	.sl-authors {
 		display: flex;
 		align-items: center;
