@@ -25,6 +25,26 @@ export default defineConfig({
 					autogenerate: { directory: 'crypto' },
 				},
 				{
+					label: 'Forensics',
+					autogenerate: { directory: 'forensics' },
+				},
+				{
+					label: 'pwn',
+					autogenerate: { directory: 'pwn' },
+				},
+				{
+					label: 'Reverse-Engineering',
+					autogenerate: { directory: 'rev' },
+				},
+				{
+					label: 'Web',
+					autogenerate: { directory: 'web' },
+				},
+				{
+					label: 'osint',
+					autogenerate: { directory: 'osint' },
+				},
+				{
 					label: 'Tools',
 					autogenerate: { directory: 'tools' },
 				}
