@@ -1,6 +1,6 @@
 ---
-title: Example Reference
-description: A reference page in my new Starlight docs site.
+title: Our special tools
+description: Docs of tools we have made and maintained!
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.
