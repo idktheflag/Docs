@@ -10,10 +10,14 @@ export default defineConfig({
 			components: {
 				PageTitle: './src/components/PageTitle.astro',
 			},
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			// https://starlight.astro.build/reference/icons/
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/idktheflag' },
+				{ icon: 'seti:html', label: 'Homepage', href: 'https://idktheflag.sh' }
+			],
 			sidebar: [
 				{
-					label: 'Reference',
+					label: 'smth',
 					autogenerate: { directory: 'reference' },
 				},
 				{
