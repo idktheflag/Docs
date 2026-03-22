@@ -4,6 +4,7 @@ description: An automation framework for solving CTF challenges automatically.
 author: zemi
 ---
 
+Find at [https://github.com/imattas/Flagr](https://github.com/imattas/Flagr)
 ## How to install
 
 ```bash

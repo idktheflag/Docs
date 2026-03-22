@@ -3,11 +3,11 @@ title: pwnsmith
 description: A GDB plugin made for solving pwn challenges.
 author: zemi
 ---
-
+Find at [https://github.com/idktheflag/pwnsmith](https://github.com/idktheflag/pwnsmith)
 ## How to install
 
 ```bash
-curl -sL https://raw.githubusercontent.com/imattas/pwnsmith/main/install.sh | sudo bash
+curl -sL https://raw.githubusercontent.com/idktheflag/pwnsmith/main/install.sh | sudo bash
 ```
 
 This installs system dependencies (gdb, python3, binutils), Python packages (pwntools, pyelftools, capstone), clones the repo to `~/.pwnsmith`, installs the binary to `/bin/pwnsmith`, and configures `~/.gdbinit`.
