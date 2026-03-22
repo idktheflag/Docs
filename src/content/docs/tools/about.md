@@ -13,4 +13,4 @@ Just some nice little tools we made (mostly Zemi) in order to help us solve CTFs
 
 #### Riverxia and Qu1ck5h0t (Collab)
 ###### WIP
-[MashaInjector](https://github.com/idktheflag/mashainjector)
+[MashaInjector](https://github.com/idktheflag/mashainjector) \[good example of random bullshit, this was our attempt at the world's laziest and most nonfunctional roblox hack of all time because we \(quick and riverxia\) love roshidere\]
