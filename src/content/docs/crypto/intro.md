@@ -1,7 +1,7 @@
 ---
 title: Introduction to Crypto
 description: Introductory yap about crypto. Go ahead if you think you're better than 101.
-author: Qu1ck5h0t
+author: quickshot
 ---
 ## What is CTF Crypto?
 
